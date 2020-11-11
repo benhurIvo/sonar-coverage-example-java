@@ -1,12 +1,7 @@
 pipeline {
     agent any
     tools {
-        jdk 'jdk10'
         maven 'M3'
-    }
-
-    environment {
-        JAVA_HOME = "${jdk}"
     }
 
     stages {
